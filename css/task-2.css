@@ -1,0 +1,26 @@
+ul {
+  display: flex;
+  padding: 100px 156px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1440px;
+  gap: 48px;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 360px;
+  height: 300px;
+}
+
+.styling {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  gap: 24px;
+}

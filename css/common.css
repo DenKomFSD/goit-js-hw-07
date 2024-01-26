@@ -12,18 +12,3 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
-.styling {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-  gap: 24px;
-}
-
-.image-styles {
-  max-width: 500px;
-  width: 100%;
-  object-fit: fill;
-  height: 200px;
-}
