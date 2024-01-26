@@ -5,5 +5,5 @@ input.addEventListener('input', upgradeInput);
 
 function upgradeInput() {
   const inputData = input.value.trim();
-  span.textContent = input === '' ? 'Anonymus' : inputData;
+  span.textContent = inputData === '' ? 'Anonymus' : inputData;
 }

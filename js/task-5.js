@@ -9,10 +9,10 @@ button.addEventListener('click', changedColor);
 
 function changedColor() {
   const body = document.body;
-  const newColor = document.querySelector('.color');
+  const colorSpan = document.querySelector('.color');
 
   let generateColor = getRandomHexColor();
   body.style.backgroundColor = generateColor;
 
-  newColor.textContent = generateColor;
+  colorSpan.textContent = generateColor;
 }

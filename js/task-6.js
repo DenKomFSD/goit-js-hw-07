@@ -20,10 +20,7 @@ function createElem(amount) {
 
 function destroyElem() {
   const boxContainer = document.getElementById('boxes');
-  // boxContainer.innerHTML;
-  while (boxContainer.firstChild) {
-    boxContainer.removeChild(boxContainer.firstChild);
-  }
+  boxContainer.innerHTML = '';
 }
 
 document.querySelector('[data-create]').addEventListener('click', validateFun);
